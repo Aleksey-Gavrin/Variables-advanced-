@@ -25,8 +25,9 @@ public class Main {
         System.out.println("Результат выполнения задачи 7:");
 
         int A = 5, B = 7;
-        A = A + A / A + A / A;
-        B = B - B / B - B / B;
+        A = A + B;
+        B = A - B;
+        A = A - B;
         System.out.println("A = " + A);
         System.out.println("B = " + B);
 
